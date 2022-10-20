@@ -1,0 +1,72 @@
+ /* CSS file for assignment2 */
+ /* David Yoo, gy24, Sep 14,2022 */
+ /* display flex is the property of flex container to use flexbox
+ align-items lets flexbox items be aligned at the center of the cross axis. 
+ flex-direction defines how flexbox items are ordered within a flexbox container.
+ justify-content defines how flexbox/grid items are aligned according to the main axis, within a flexbox/grid container.
+ margin is the space around an element's border.
+ verticle-align: middle lets the element be on the center.
+ padding is the space between its content and its border */
+ 
+
+.logoWithSearchBar{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.searchBox{
+    display: flex;
+    border-radius: 3px;
+    border: 1px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.search-txt{
+    border-radius: 3px;
+    background-color: lightgrey;
+    border: none;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    height: 150px;
+    width: 350px;
+}
+
+.menubar {
+    width: 100%;
+	float: left;
+	margin-left: -20;
+	padding: 8px 20px;
+	background-color: #8A2F2F;
+    position: relative;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.menuli{
+    padding: 10px 30px;
+    color: white;
+    font-size: 0.9vw;
+    font-family: Arial;
+    font-style: normal;
+}
+
+.menuli:hover{
+    color: yellow;
+}
+
+.someText{
+    text-align: center;
+    font-size: 300px;
+}
